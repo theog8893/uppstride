@@ -17,7 +17,7 @@ export default function Navbar() {
       <div className='mx-auto flex max-w-7xl items-center justify-between px-6 py-4'>
         <a href='/' className='flex items-center gap-2.5 text-2xl font-bold tracking-tight text-white'>
           <img src='/uppstride-icon.png' alt='Uppstride' className='h-8 w-8' />
-          Upp<span className='text-blue-500'>stride</span>
+          Uppstride
         </a>
 
         <nav className='hidden md:flex items-center gap-8'>
@@ -28,7 +28,7 @@ export default function Navbar() {
           ))}
         </nav>
 
-        <a href='https://cal.com/manish-bansal' target='_blank' rel='noopener noreferrer' className='hidden md:inline-flex items-center gap-2 rounded-full bg-blue-600 px-5 py-2.5 text-sm font-semibold text-white hover:bg-blue-500 transition'>
+        <a href='https://cal.com/manish-bansal' target='_blank' rel='noopener noreferrer' className='hidden md:inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-blue-600 to-emerald-500 px-5 py-2.5 text-sm font-semibold text-white transition hover:opacity-90'>
           Book Growth Audit
           <ArrowRight size={16} />
         </a>
@@ -46,7 +46,7 @@ export default function Navbar() {
                 {item.label}
               </a>
             ))}
-            <a href='https://cal.com/manish-bansal' target='_blank' rel='noopener noreferrer' className='mt-4 inline-flex justify-center items-center gap-2 rounded-full bg-blue-600 px-5 py-3 font-semibold text-white'>
+            <a href='https://cal.com/manish-bansal' target='_blank' rel='noopener noreferrer' className='mt-4 inline-flex justify-center items-center gap-2 rounded-full bg-gradient-to-r from-blue-600 to-emerald-500 px-5 py-3 font-semibold text-white'>
               Book Growth Audit
               <ArrowRight size={16}/>
             </a>

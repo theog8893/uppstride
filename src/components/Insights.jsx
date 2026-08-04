@@ -57,7 +57,7 @@ export default function Insights() {
                 {article.category}
               </span>
 
-              <h3 className="mt-5 text-2xl font-semibold text-slate-900">
+              <h3 className="mt-4 text-2xl font-semibold text-slate-900">
                 {article.title}
               </h3>
 

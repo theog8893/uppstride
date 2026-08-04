@@ -24,7 +24,7 @@ export default function Footer() {
           <div>
             <h3 className="flex items-center gap-2.5 text-2xl font-bold text-white">
               <img src="/uppstride-icon.png" alt="Uppstride" className="h-8 w-8" />
-              Upp<span className="text-blue-500">stride</span>
+              Uppstride
             </h3>
             <p className="mt-5 leading-7 text-slate-400">
               Operator-led growth consulting helping ambitious businesses build
@@ -77,7 +77,7 @@ export default function Footer() {
               href="https://cal.com/manish-bansal"
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-6 inline-flex items-center gap-2 rounded-full bg-blue-600 px-5 py-3 font-semibold text-white hover:bg-blue-500"
+              className="mt-6 inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-blue-600 to-emerald-500 px-5 py-3 font-semibold text-white transition hover:opacity-90"
             >
               Book Growth Audit
               <ArrowUpRight size={16} />

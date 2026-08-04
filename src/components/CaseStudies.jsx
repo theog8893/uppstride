@@ -55,11 +55,11 @@ export default function CaseStudies() {
                 {item.industry}
               </span>
 
-              <h3 className="mt-5 text-2xl font-semibold text-white">
+              <h3 className="mt-4 text-2xl font-semibold text-white">
                 {item.title}
               </h3>
 
-              <p className="mt-4 text-lg font-semibold text-blue-500">
+              <p className="mt-4 text-lg font-semibold bg-gradient-to-r from-blue-400 to-emerald-400 bg-clip-text text-transparent">
                 {item.outcome}
               </p>
 

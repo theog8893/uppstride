@@ -1,7 +1,7 @@
 import {
   Search,
-  Compass,
-  Rocket,
+  ListOrdered,
+  Zap,
   BarChart3,
 } from 'lucide-react';
 
@@ -16,14 +16,14 @@ const framework = [
   {
     step: '02',
     title: 'Prioritise',
-    icon: Compass,
+    icon: ListOrdered,
     description:
       'Identify the highest-impact opportunities across GTM, customer acquisition, pricing, retention, marketplaces and AI-led execution.',
   },
   {
     step: '03',
     title: 'Execute',
-    icon: Rocket,
+    icon: Zap,
     description:
       'Work alongside leadership teams to implement initiatives, establish operating rhythms and drive measurable execution.',
   },
@@ -69,11 +69,11 @@ export default function Framework() {
                   {item.step}
                 </span>
 
-                <div className="mt-6 flex h-12 w-12 items-center justify-center rounded-xl bg-blue-50">
+                <div className="mt-4 flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-blue-50 to-emerald-50">
                   <Icon className="h-6 w-6 text-blue-600" />
                 </div>
 
-                <h3 className="mt-6 text-2xl font-semibold text-slate-900">
+                <h3 className="mt-4 text-2xl font-semibold text-slate-900">
                   {item.title}
                 </h3>
 

@@ -69,11 +69,11 @@ export default function WhyUppstride() {
                   key={item.title}
                   className="rounded-3xl border border-slate-200 bg-slate-50 p-7 transition hover:border-blue-300 hover:shadow-lg hover:shadow-blue-100"
                 >
-                  <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-blue-50">
+                  <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-blue-50 to-emerald-50">
                     <Icon className="h-6 w-6 text-blue-600" />
                   </div>
 
-                  <h3 className="mt-5 text-xl font-semibold text-slate-900">
+                  <h3 className="mt-4 text-xl font-semibold text-slate-900">
                     {item.title}
                   </h3>
 

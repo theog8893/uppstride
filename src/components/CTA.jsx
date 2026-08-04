@@ -4,7 +4,7 @@ export default function CTA() {
   return (
     <section id="contact" className="bg-slate-950 py-24">
       <div className="mx-auto max-w-5xl px-6">
-        <div className="rounded-3xl border border-blue-600/20 bg-gradient-to-br from-blue-600/10 to-slate-900 p-10 md:p-14 text-center">
+        <div className="rounded-3xl border border-blue-600/20 bg-gradient-to-br from-blue-600/10 via-slate-900 to-emerald-500/10 p-10 md:p-14 text-center">
 
           <p className="text-sm font-semibold uppercase tracking-widest text-blue-500">
             Ready to Accelerate Growth?
@@ -25,7 +25,7 @@ export default function CTA() {
               href="https://cal.com/manish-bansal"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 rounded-full bg-blue-600 px-8 py-4 font-semibold text-white transition hover:bg-blue-500"
+              className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-blue-600 to-emerald-500 px-8 py-4 font-semibold text-white transition hover:opacity-90"
             >
               Book Your Growth Audit
               <ArrowRight size={18} />
