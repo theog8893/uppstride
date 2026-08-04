@@ -62,23 +62,24 @@ const industries = [
 
 export default function Industries() {
   return (
-    <section id="industries" className="bg-slate-950 py-24">
+    <section id="industries" className="bg-slate-50 py-24">
       <div className="mx-auto max-w-7xl px-6">
 
         <div className="max-w-3xl">
-          <p className="text-sm font-semibold uppercase tracking-widest text-cyan-400">
-            Industry Expertise
+          <p className="text-sm font-semibold uppercase tracking-widest text-blue-600">
+            Where We've Worked
           </p>
 
-          <h2 className="mt-3 text-4xl font-bold text-white md:text-5xl">
-            Growth strategies tailored for different business models.
+          <h2 className="mt-3 text-4xl font-bold text-slate-900 md:text-5xl">
+            The same operating model, applied across business types.
           </h2>
 
-          <p className="mt-6 text-lg leading-8 text-slate-300">
-            Every industry scales differently. Our experience spans consumer
-            internet, D2C, marketplaces, fintech, travel, healthcare and
-            technology businesses, enabling us to build growth strategies that
-            fit each business model rather than applying generic playbooks.
+          <p className="mt-6 text-lg leading-8 text-slate-600">
+            Our diagnose-prioritise-execute approach isn't industry-specific —
+            it's grounded in commercial fundamentals that hold across sectors.
+            That's let us take on growth and execution mandates across
+            consumer internet, D2C, marketplaces, fintech, travel, healthcare
+            and technology businesses.
           </p>
         </div>
 
@@ -88,26 +89,19 @@ export default function Industries() {
             return (
               <div
                 key={industry.title}
-                className="rounded-3xl border border-white/10 bg-white/5 p-7 transition hover:border-cyan-400/40 hover:bg-white/10"
+                className="rounded-3xl border border-slate-200 bg-white p-7 transition hover:border-blue-300 hover:shadow-lg hover:shadow-blue-100"
               >
-                <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-cyan-500/10">
-                  <Icon className="h-6 w-6 text-cyan-400" />
+                <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-blue-50">
+                  <Icon className="h-6 w-6 text-blue-600" />
                 </div>
 
-                <h3 className="mt-5 text-xl font-semibold text-white">
+                <h3 className="mt-5 text-xl font-semibold text-slate-900">
                   {industry.title}
                 </h3>
 
-                <p className="mt-3 text-sm leading-7 text-slate-300">
+                <p className="mt-3 text-sm leading-7 text-slate-600">
                   {industry.description}
                 </p>
-
-                <a
-                  href={"/industries/" + industry.title.toLowerCase().replace(/[^a-z0-9]+/g,"-")}
-                  className="mt-5 inline-block text-sm font-semibold text-cyan-400 hover:text-cyan-300"
-                >
-                  Explore Industry →
-                </a>
               </div>
             );
           })}

@@ -5,13 +5,13 @@ export default function Hero() {
     <section className='relative overflow-hidden bg-slate-950'>
       <div className='mx-auto max-w-7xl px-6 py-24 lg:py-32'>
         <div className='max-w-4xl'>
-          <span className='inline-flex rounded-full border border-cyan-500/30 bg-cyan-500/10 px-4 py-1 text-sm font-medium text-cyan-300'>
+          <span className='inline-flex rounded-full border border-blue-600/30 bg-blue-600/10 px-4 py-1 text-sm font-medium text-blue-400'>
             Operator-led Growth Consulting
           </span>
 
           <h1 className='mt-6 text-5xl lg:text-7xl font-bold leading-tight tracking-tight text-white'>
             Helping ambitious businesses build
-            <span className='block text-cyan-400'>repeatable growth engines.</span>
+            <span className='block text-blue-500'>repeatable growth engines.</span>
           </h1>
 
           <p className='mt-8 max-w-3xl text-lg leading-8 text-slate-300'>
@@ -19,7 +19,7 @@ export default function Hero() {
           </p>
 
           <div className='mt-10 flex flex-wrap gap-4'>
-            <a href='#contact' className='inline-flex items-center gap-2 rounded-full bg-cyan-500 px-7 py-3.5 font-semibold text-slate-950 hover:bg-cyan-400'>
+            <a href='#contact' className='inline-flex items-center gap-2 rounded-full bg-blue-600 px-7 py-3.5 font-semibold text-slate-950 hover:bg-blue-500'>
               Book Growth Audit <ArrowRight size={18}/>
             </a>
 
@@ -36,7 +36,7 @@ export default function Hero() {
               ['Growth + AI','Execution Focus']
             ].map(([v,l])=>(
               <div key={l} className='rounded-2xl border border-white/10 bg-white/5 p-5'>
-                <TrendingUp className='mb-3 h-5 w-5 text-cyan-400'/>
+                <TrendingUp className='mb-3 h-5 w-5 text-blue-500'/>
                 <div className='text-2xl font-bold text-white'>{v}</div>
                 <div className='mt-1 text-sm text-slate-400'>{l}</div>
               </div>

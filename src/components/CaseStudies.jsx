@@ -30,7 +30,7 @@ export default function CaseStudies() {
       <div className="mx-auto max-w-7xl px-6">
 
         <div className="max-w-3xl">
-          <p className="text-sm font-semibold uppercase tracking-widest text-cyan-400">
+          <p className="text-sm font-semibold uppercase tracking-widest text-blue-500">
             Selected Engagements
           </p>
 
@@ -49,9 +49,9 @@ export default function CaseStudies() {
           {caseStudies.map((item) => (
             <div
               key={item.title}
-              className="rounded-3xl border border-white/10 bg-white/5 p-8 transition hover:border-cyan-400/40 hover:bg-white/10"
+              className="rounded-3xl border border-white/10 bg-white/5 p-8 transition hover:border-blue-500/40 hover:bg-white/10"
             >
-              <span className="inline-flex rounded-full bg-cyan-500/10 px-3 py-1 text-xs font-semibold text-cyan-300">
+              <span className="inline-flex rounded-full bg-blue-600/10 px-3 py-1 text-xs font-semibold text-blue-400">
                 {item.industry}
               </span>
 
@@ -59,7 +59,7 @@ export default function CaseStudies() {
                 {item.title}
               </h3>
 
-              <p className="mt-4 text-lg font-semibold text-cyan-400">
+              <p className="mt-4 text-lg font-semibold text-blue-500">
                 {item.outcome}
               </p>
 
@@ -69,7 +69,7 @@ export default function CaseStudies() {
 
               <a
                 href="#contact"
-                className="mt-8 inline-flex items-center gap-2 text-sm font-semibold text-cyan-400 hover:text-cyan-300"
+                className="mt-8 inline-flex items-center gap-2 text-sm font-semibold text-blue-500 hover:text-blue-400"
               >
                 Discuss Similar Challenge
                 <ArrowUpRight size={16} />

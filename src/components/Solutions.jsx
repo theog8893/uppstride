@@ -48,18 +48,18 @@ const solutions = [
 
 export default function Solutions() {
   return (
-    <section id="solutions" className="bg-slate-900 py-24">
+    <section id="solutions" className="bg-slate-50 py-24">
       <div className="mx-auto max-w-7xl px-6">
         <div className="max-w-3xl">
-          <p className="text-sm font-semibold uppercase tracking-widest text-cyan-400">
+          <p className="text-sm font-semibold uppercase tracking-widest text-blue-600">
             Growth Expertise
           </p>
 
-          <h2 className="mt-3 text-4xl font-bold text-white md:text-5xl">
+          <h2 className="mt-3 text-4xl font-bold text-slate-900 md:text-5xl">
             Practical consulting focused on measurable business outcomes.
           </h2>
 
-          <p className="mt-6 text-lg leading-8 text-slate-300">
+          <p className="mt-6 text-lg leading-8 text-slate-600">
             We don't operate like a traditional marketing agency. We work with
             founders and leadership teams to solve the highest-impact growth
             challenges using strategy, execution and AI where it creates real value.
@@ -72,17 +72,17 @@ export default function Solutions() {
             return (
               <div
                 key={item.title}
-                className="rounded-3xl border border-white/10 bg-white/5 p-8 transition hover:border-cyan-400/40 hover:bg-white/10"
+                className="rounded-3xl border border-slate-200 bg-white p-8 transition hover:border-blue-300 hover:shadow-lg hover:shadow-blue-100"
               >
-                <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-cyan-500/10">
-                  <Icon className="h-6 w-6 text-cyan-400" />
+                <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-blue-50">
+                  <Icon className="h-6 w-6 text-blue-600" />
                 </div>
 
-                <h3 className="mt-6 text-2xl font-semibold text-white">
+                <h3 className="mt-6 text-2xl font-semibold text-slate-900">
                   {item.title}
                 </h3>
 
-                <p className="mt-4 leading-7 text-slate-300">
+                <p className="mt-4 leading-7 text-slate-600">
                   {item.description}
                 </p>
               </div>

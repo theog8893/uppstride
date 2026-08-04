@@ -22,8 +22,9 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl px-6 py-16">
         <div className="grid gap-12 md:grid-cols-4">
           <div>
-            <h3 className="text-2xl font-bold text-white">
-              Upp<span className="text-cyan-400">stride</span>
+            <h3 className="flex items-center gap-2.5 text-2xl font-bold text-white">
+              <img src="/uppstride-icon.png" alt="Uppstride" className="h-8 w-8" />
+              Upp<span className="text-blue-500">stride</span>
             </h3>
             <p className="mt-5 leading-7 text-slate-400">
               Operator-led growth consulting helping ambitious businesses build
@@ -31,10 +32,10 @@ export default function Footer() {
             </p>
 
             <div className="mt-6 flex gap-4">
-              <a href="mailto:hello@uppstride.com" className="text-slate-400 hover:text-cyan-400">
+              <a href="mailto:hello@uppstride.com" className="text-slate-400 hover:text-blue-500">
                 <Mail size={20} />
               </a>
-              <a href="https://www.linkedin.com" target="_blank" rel="noreferrer" className="text-slate-400 hover:text-cyan-400">
+              <a href="https://www.linkedin.com" target="_blank" rel="noreferrer" className="text-slate-400 hover:text-blue-500">
                 <Linkedin size={20} />
               </a>
             </div>
@@ -73,10 +74,10 @@ export default function Footer() {
             </p>
 
             <a
-              href="https://calendly.com/your-link"
+              href="https://cal.com/manish-bansal"
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-6 inline-flex items-center gap-2 rounded-full bg-cyan-500 px-5 py-3 font-semibold text-slate-950 hover:bg-cyan-400"
+              className="mt-6 inline-flex items-center gap-2 rounded-full bg-blue-600 px-5 py-3 font-semibold text-white hover:bg-blue-500"
             >
               Book Growth Audit
               <ArrowUpRight size={16} />

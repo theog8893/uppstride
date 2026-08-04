@@ -29,28 +29,29 @@ const differentiators = [
 
 export default function WhyUppstride() {
   return (
-    <section id="about" className="bg-slate-900 py-24">
+    <section id="about" className="bg-white py-24">
       <div className="mx-auto max-w-7xl px-6">
 
         <div className="grid gap-16 lg:grid-cols-2 lg:items-center">
 
           <div>
-            <p className="text-sm font-semibold uppercase tracking-widest text-cyan-400">
+            <p className="text-sm font-semibold uppercase tracking-widest text-blue-600">
               Why Uppstride
             </p>
 
-            <h2 className="mt-3 text-4xl font-bold text-white md:text-5xl">
-              Operator-led growth consulting built around measurable business outcomes.
+            <h2 className="mt-3 text-4xl font-bold text-slate-900 md:text-5xl">
+              A growth consulting and execution partner, not just an advisor.
             </h2>
 
-            <p className="mt-6 text-lg leading-8 text-slate-300">
+            <p className="mt-6 text-lg leading-8 text-slate-600">
               Uppstride was founded on a simple belief—business growth cannot be
-              solved through marketing alone. Sustainable growth comes from
-              aligning strategy, customer acquisition, product, operations,
-              marketplaces and execution.
+              solved through marketing alone, and strategy without execution is
+              just a slide deck. We work as an embedded partner across strategy,
+              customer acquisition, product, operations, marketplaces and
+              day-to-day execution.
             </p>
 
-            <p className="mt-6 text-lg leading-8 text-slate-300">
+            <p className="mt-6 text-lg leading-8 text-slate-600">
               Our experience spans businesses from early-stage startups to
               enterprises managing multi-crore P&Ls, helping leadership teams
               make better commercial decisions and build repeatable growth
@@ -66,17 +67,17 @@ export default function WhyUppstride() {
               return (
                 <div
                   key={item.title}
-                  className="rounded-3xl border border-white/10 bg-white/5 p-7 transition hover:border-cyan-400/40 hover:bg-white/10"
+                  className="rounded-3xl border border-slate-200 bg-slate-50 p-7 transition hover:border-blue-300 hover:shadow-lg hover:shadow-blue-100"
                 >
-                  <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-cyan-500/10">
-                    <Icon className="h-6 w-6 text-cyan-400" />
+                  <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-blue-50">
+                    <Icon className="h-6 w-6 text-blue-600" />
                   </div>
 
-                  <h3 className="mt-5 text-xl font-semibold text-white">
+                  <h3 className="mt-5 text-xl font-semibold text-slate-900">
                     {item.title}
                   </h3>
 
-                  <p className="mt-3 leading-7 text-slate-300">
+                  <p className="mt-3 leading-7 text-slate-600">
                     {item.description}
                   </p>
                 </div>

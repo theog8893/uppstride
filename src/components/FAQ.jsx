@@ -15,9 +15,9 @@ const faqs = [
       'Yes. We partner closely with leadership teams through advisory, fractional leadership and execution-focused consulting engagements.'
   },
   {
-    question: 'Which industries do you specialise in?',
+    question: 'Which industries do you work with?',
     answer:
-      'Our experience spans D2C, Consumer Tech, SaaS, Marketplaces, FinTech, Healthcare, Travel and other high-growth businesses.'
+      'We work across D2C, Consumer Tech, SaaS, Marketplaces, FinTech, Healthcare, Travel and other high-growth businesses. Our approach is built on commercial fundamentals that apply across sectors, rather than a single-industry playbook.'
   },
   {
     question: 'How do engagements typically begin?',
@@ -28,13 +28,13 @@ const faqs = [
 
 export default function FAQ() {
   return (
-    <section id="faq" className="bg-slate-900 py-24">
+    <section id="faq" className="bg-white py-24">
       <div className="mx-auto max-w-5xl px-6">
         <div className="text-center">
-          <p className="text-sm font-semibold uppercase tracking-widest text-cyan-400">
+          <p className="text-sm font-semibold uppercase tracking-widest text-blue-600">
             Frequently Asked Questions
           </p>
-          <h2 className="mt-3 text-4xl font-bold text-white md:text-5xl">
+          <h2 className="mt-3 text-4xl font-bold text-slate-900 md:text-5xl">
             Answers to common founder questions.
           </h2>
         </div>
@@ -43,12 +43,12 @@ export default function FAQ() {
           {faqs.map((faq) => (
             <details
               key={faq.question}
-              className="rounded-2xl border border-white/10 bg-white/5 p-6"
+              className="rounded-2xl border border-slate-200 bg-slate-50 p-6"
             >
-              <summary className="cursor-pointer text-lg font-semibold text-white">
+              <summary className="cursor-pointer text-lg font-semibold text-slate-900">
                 {faq.question}
               </summary>
-              <p className="mt-4 leading-7 text-slate-300">
+              <p className="mt-4 leading-7 text-slate-600">
                 {faq.answer}
               </p>
             </details>
