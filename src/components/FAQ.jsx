@@ -1,0 +1,60 @@
+const faqs = [
+  {
+    question: 'Who is Uppstride best suited for?',
+    answer:
+      'We work with founders, leadership teams and growth-stage businesses looking to accelerate revenue, improve GTM execution and build repeatable growth systems.'
+  },
+  {
+    question: 'How is Uppstride different from a marketing agency?',
+    answer:
+      'We focus on business outcomes first. Marketing is only one lever. We also work on GTM, pricing, customer acquisition, marketplaces, AI adoption and operating rhythms.'
+  },
+  {
+    question: 'Do you work as a Fractional CGO or Growth Advisor?',
+    answer:
+      'Yes. We partner closely with leadership teams through advisory, fractional leadership and execution-focused consulting engagements.'
+  },
+  {
+    question: 'Which industries do you specialise in?',
+    answer:
+      'Our experience spans D2C, Consumer Tech, SaaS, Marketplaces, FinTech, Healthcare, Travel and other high-growth businesses.'
+  },
+  {
+    question: 'How do engagements typically begin?',
+    answer:
+      'Every engagement starts with a Growth Audit to identify bottlenecks, prioritise opportunities and define a practical roadmap.'
+  }
+];
+
+export default function FAQ() {
+  return (
+    <section id="faq" className="bg-slate-900 py-24">
+      <div className="mx-auto max-w-5xl px-6">
+        <div className="text-center">
+          <p className="text-sm font-semibold uppercase tracking-widest text-cyan-400">
+            Frequently Asked Questions
+          </p>
+          <h2 className="mt-3 text-4xl font-bold text-white md:text-5xl">
+            Answers to common founder questions.
+          </h2>
+        </div>
+
+        <div className="mt-14 space-y-5">
+          {faqs.map((faq) => (
+            <details
+              key={faq.question}
+              className="rounded-2xl border border-white/10 bg-white/5 p-6"
+            >
+              <summary className="cursor-pointer text-lg font-semibold text-white">
+                {faq.question}
+              </summary>
+              <p className="mt-4 leading-7 text-slate-300">
+                {faq.answer}
+              </p>
+            </details>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
